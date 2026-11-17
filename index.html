@@ -1,103 +1,146 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Wedding Invitation</title>
-    <meta name="description" content="Join us to celebrate our wedding.">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f3e9">
+  <meta name="description" content="Ananth and Roja warmly invite you to celebrate their wedding on 4 December 2026 at Shivagange Convention Centre, Davanagere.">
+  <title>Ananth &amp; Roja | Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&family=Noto+Sans+Kannada:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <div class="topline"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Ananth and Roja home"><span class="brand-mark">A<span>&amp;</span>R</span><span class="brand-caption">A WEDDING CELEBRATION</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#story" data-en="Our Story" data-kn="ನಮ್ಮ ಕಥೆ">Our Story</a>
+      <a href="#celebration" data-en="The Celebration" data-kn="ಮದುವೆ ಸಮಾರಂಭ">The Celebration</a>
+      <a href="#families" data-en="Our Families" data-kn="ನಮ್ಮ ಕುಟುಂಬಗಳು">Our Families</a>
+      <a href="#venue" data-en="Venue" data-kn="ಸ್ಥಳ">Venue</a>
+      <button class="language-toggle" id="languageToggle" type="button" aria-label="Switch language">ಕನ್ನಡ</button>
+    </nav>
+  </header>
 
-    <!-- Welcome Section -->
-    <header class="hero">
-        <p class="welcome">TOGETHER WITH THEIR FAMILIES</p>
-
-        <h1>Our Wedding</h1>
-
-        <div class="names">
-    Ananth
-    <span>&</span>
-    Roja
-</div>
-
-        <p class="invitation">
-            REQUEST THE PLEASURE OF YOUR COMPANY
-            AS THEY BEGIN THEIR JOURNEY TOGETHER
-        </p>
-
-      <p class="wedding-date">
-    04 DECEMBER 2026
-    <br>
-    <span>MUHURTHAM • 09:00 AM IST</span>
-</p>
-        <a href="#events" class="button">
-            EXPLORE INVITATION
-        </a>
-    </header>
-
-    <!-- Couple Introduction -->
-    <section id="story">
-        <h2>A Beautiful Beginning</h2>
-        <p>
-            Two hearts, one beautiful journey.
-            We invite you to celebrate our special day
-            with love, happiness and blessings.
-        </p>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image" role="img" aria-label="Elegant wedding floral setting"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow" data-en="TOGETHER WITH THEIR FAMILIES" data-kn="ತಮ್ಮ ಕುಟುಂಬದವರೊಂದಿಗೆ">TOGETHER WITH THEIR FAMILIES</p>
+        <div class="ornament" aria-hidden="true">✦</div>
+        <h1>Ananth <em>&amp;</em> Roja</h1>
+        <p class="hero-kannada kannada">ಅನಂತ್ &amp; ರೋಜಾ</p>
+        <p class="hero-invite" data-en="REQUEST THE PLEASURE OF YOUR COMPANY AS THEY BEGIN THEIR JOURNEY TOGETHER" data-kn="ತಮ್ಮ ಜೀವನದ ಹೊಸ ಪಯಣವನ್ನು ಆರಂಭಿಸುವ ಈ ಶುಭ ಸಂದರ್ಭದಲ್ಲಿ ನಿಮ್ಮ ಆಗಮನವನ್ನು ಪ್ರೀತಿಯಿಂದ ಕೋರುತ್ತೇವೆ">REQUEST THE PLEASURE OF YOUR COMPANY AS THEY BEGIN THEIR JOURNEY TOGETHER</p>
+        <div class="hero-date"><span>04</span><i></i><span>12</span><i></i><span>2026</span></div>
+        <p class="hero-time" data-en="MUHURTHAM · 9:00 IN THE MORNING" data-kn="ಮುಹೂರ್ತ · ಬೆಳಿಗ್ಗೆ 9:00 ಗಂಟೆಗೆ">MUHURTHAM · 9:00 IN THE MORNING</p>
+        <a class="gold-button" href="#celebration" data-en="EXPLORE THE INVITATION" data-kn="ಆಮಂತ್ರಣವನ್ನು ನೋಡಿ">EXPLORE THE INVITATION</a>
+      </div>
+      <div class="hero-bottom-note">DAVANAGERE · KARNATAKA</div>
     </section>
 
-    <!-- Countdown -->
-    <section id="countdown">
-        <h2>Counting Down to Forever</h2>
-        <div id="timer">Our special day is approaching</div>
+    <section class="intro section-pad" id="story">
+      <p class="section-kicker" data-en="A NEW CHAPTER BEGINS" data-kn="ಹೊಸ ಅಧ್ಯಾಯದ ಆರಂಭ">A NEW CHAPTER BEGINS</p>
+      <h2 data-en="Two families, one beautiful celebration." data-kn="ಎರಡು ಕುಟುಂಬಗಳು, ಒಂದು ಸುಂದರ ಸಂಭ್ರಮ.">Two families, one beautiful celebration.</h2>
+      <div class="small-divider"><span>✧</span></div>
+      <p class="intro-copy" data-en="With the blessings of our elders and the love of our families, we invite you to join us as Ananth and Roja begin their life together." data-kn="ಹಿರಿಯರ ಆಶೀರ್ವಾದ ಮತ್ತು ಕುಟುಂಬದವರ ಪ್ರೀತಿಯೊಂದಿಗೆ, ಅನಂತ್ ಮತ್ತು ರೋಜಾ ಅವರ ಜೀವನದ ಹೊಸ ಪಯಣದ ಶುಭಾರಂಭಕ್ಕೆ ನಿಮ್ಮನ್ನು ಆತ್ಮೀಯವಾಗಿ ಆಹ್ವಾನಿಸುತ್ತೇವೆ.">With the blessings of our elders and the love of our families, we invite you to join us as Ananth and Roja begin their life together.</p>
+      <p class="script-signature">Ananth <span>&amp;</span> Roja</p>
     </section>
 
-    <!-- Wedding Events -->
-    <section id="events">
-        <h2>Wedding Celebrations</h2>
-
-        <div class="event">
-            <h3>Haldi Ceremony</h3>
-            <p>Date and Time to be added</p>
+    <section class="countdown-section">
+      <div class="countdown-inner">
+        <p class="section-kicker light" data-en="SAVE THE DATE" data-kn="ದಿನಾಂಕವನ್ನು ನೆನಪಿಡಿ">SAVE THE DATE</p>
+        <h2 data-en="The countdown to forever" data-kn="ಸುಂದರ ಕ್ಷಣದ ನಿರೀಕ್ಷೆಯಲ್ಲಿ">The countdown to forever</h2>
+        <div class="countdown" id="countdown" aria-live="polite">
+          <div><strong id="days">--</strong><span data-en="DAYS" data-kn="ದಿನಗಳು">DAYS</span></div>
+          <div><strong id="hours">--</strong><span data-en="HOURS" data-kn="ಗಂಟೆಗಳು">HOURS</span></div>
+          <div><strong id="minutes">--</strong><span data-en="MINUTES" data-kn="ನಿಮಿಷಗಳು">MINUTES</span></div>
+          <div><strong id="seconds">--</strong><span data-en="SECONDS" data-kn="ಸೆಕೆಂಡುಗಳು">SECONDS</span></div>
         </div>
+        <p class="countdown-date" data-en="4 December 2026 · 9:00 AM IST" data-kn="4 ಡಿಸೆಂಬರ್ 2026 · ಬೆಳಿಗ್ಗೆ 9:00 IST">4 December 2026 · 9:00 AM IST</p>
+      </div>
+    </section>
 
-        <div class="event">
-            <h3>Wedding Ceremony</h3>
-            <p>Date and Time to be added</p>
+    <section class="celebration section-pad" id="celebration">
+      <p class="section-kicker" data-en="PLEASE JOIN US" data-kn="ನಮ್ಮೊಂದಿಗೆ ಸೇರಿ">PLEASE JOIN US</p>
+      <h2 data-en="The Wedding Ceremony" data-kn="ವಿವಾಹ ಸಮಾರಂಭ">The Wedding Ceremony</h2>
+      <div class="event-card">
+        <div class="event-date"><span>FRIDAY</span><strong>04</strong><span>DECEMBER 2026</span></div>
+        <div class="event-details">
+          <p class="event-label" data-en="THE MUHURTHAM" data-kn="ಶುಭ ಮುಹೂರ್ತ">THE MUHURTHAM</p>
+          <h3 data-en="Wedding Ceremony" data-kn="ವಿವಾಹ ಸಮಾರಂಭ">Wedding Ceremony</h3>
+          <p class="event-time">09:00 AM IST</p>
+          <p data-en="At Shivagange Convention Centre, Davanagere" data-kn="ಶಿವಗಂಗೆ ಕನ್ವೆನ್ಷನ್ ಸೆಂಟರ್, ದಾವಣಗೆರೆ">At Shivagange Convention Centre, Davanagere</p>
         </div>
-
-        <div class="event">
-            <h3>Reception</h3>
-            <p>Date and Time to be added</p>
-        </div>
+        <div class="event-flower" aria-hidden="true">❀</div>
+      </div>
+      <p class="event-note" data-en="Your presence and blessings will make our celebration even more special." data-kn="ನಿಮ್ಮ ಉಪಸ್ಥಿತಿ ಮತ್ತು ಆಶೀರ್ವಾದಗಳು ನಮ್ಮ ಸಂಭ್ರಮವನ್ನು ಇನ್ನಷ್ಟು ವಿಶೇಷವಾಗಿಸುತ್ತವೆ.">Your presence and blessings will make our celebration even more special.</p>
     </section>
 
-    <!-- Venue -->
-    <section id="venue">
-        <h2>Wedding Venue</h2>
-        <p>Wedding Hall Name</p>
-        <p>Full Address</p>
-
-        <a href="#" class="button">GET DIRECTIONS</a>
+    <section class="families section-pad" id="families">
+      <p class="section-kicker" data-en="WITH THE BLESSINGS OF" data-kn="ಹಿರಿಯರ ಆಶೀರ್ವಾದದೊಂದಿಗೆ">WITH THE BLESSINGS OF</p>
+      <h2 data-en="Our Families" data-kn="ನಮ್ಮ ಕುಟುಂಬಗಳು">Our Families</h2>
+      <div class="family-grid">
+        <article class="family-card">
+          <p class="family-role" data-en="GROOM'S FAMILY" data-kn="ವರನ ಕುಟುಂಬ">GROOM'S FAMILY</p>
+          <h3>Ananth</h3>
+          <p>Sri B. Lokya Naik</p>
+          <p>K. Sudha</p>
+        </article>
+        <div class="family-emblem" aria-hidden="true">&amp;</div>
+        <article class="family-card">
+          <p class="family-role" data-en="BRIDE'S FAMILY" data-kn="ವಧುವಿನ ಕುಟುಂಬ">BRIDE'S FAMILY</p>
+          <h3>Roja</h3>
+          <p>P.L. Purushotham Naik</p>
+          <p>Neela Bai</p>
+        </article>
+      </div>
     </section>
 
-    <!-- Photo Gallery -->
-    <section id="gallery">
-        <h2>Our Memories</h2>
-        <p>Beautiful moments will be shared here.</p>
+    <section class="venue section-pad" id="venue">
+      <p class="section-kicker" data-en="WHERE WE CELEBRATE" data-kn="ಸಂಭ್ರಮದ ಸ್ಥಳ">WHERE WE CELEBRATE</p>
+      <h2 data-en="The Wedding Venue" data-kn="ವಿವಾಹ ಸ್ಥಳ">The Wedding Venue</h2>
+      <div class="venue-card">
+        <div class="venue-icon" aria-hidden="true">⌖</div>
+        <h3>Shivagange Convention Centre</h3>
+        <p>Kundavada Road, Davanagere,<br>Karnataka – 577006</p>
+        <a class="outline-button" href="https://www.google.com/maps/place/Shivagange+Convention+Centre/@14.4634658,75.8887036,17z/data=!3m1!4b1!4m6!3m5!1s0x3bba2f1f99cdb059:0x458b855328fe5a3f!8m2!3d14.4634658!4d75.8912785!16s%2Fg%2F11j7hltvy9?entry=ttu&amp;g_ep=EgoyMDI2MTExNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" data-en="OPEN GOOGLE MAPS" data-kn="ಗೂಗಲ್ ಮ್ಯಾಪ್ಸ್ ತೆರೆಯಿರಿ">OPEN GOOGLE MAPS</a>
+      </div>
     </section>
 
-    <!-- Final Invitation -->
-    <footer>
-        <h2>We Await Your Presence</h2>
-        <p>With love and blessings,</p>
-        <p>Groom & Bride Families</p>
-        <p>Thank you for being part of our celebration.</p>
-    </footer>
+    <section class="gallery-section section-pad" id="gallery">
+      <p class="section-kicker" data-en="A LITTLE WEDDING INSPIRATION" data-kn="ಮಧುರ ಕ್ಷಣಗಳ ನೆನಪು">A LITTLE WEDDING INSPIRATION</p>
+      <h2 data-en="A Celebration of Love" data-kn="ಪ್ರೀತಿಯ ಸಂಭ್ರಮ">A Celebration of Love</h2>
+      <p class="gallery-note" data-en="We look forward to making beautiful memories with you." data-kn="ನಿಮ್ಮೊಂದಿಗೆ ಸುಂದರ ನೆನಪುಗಳನ್ನು ಸೃಷ್ಟಿಸಲು ನಾವು ಕಾತರರಾಗಿದ್ದೇವೆ.">We look forward to making beautiful memories with you.</p>
+      <div class="gallery-grid">
+        <button class="gallery-photo photo-one" type="button" aria-label="View wedding floral photograph"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Elegant wedding ceremony floral decor" loading="lazy"></button>
+        <button class="gallery-photo photo-two" type="button" aria-label="View wedding table photograph"><img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Wedding reception table setting" loading="lazy"></button>
+        <button class="gallery-photo photo-three" type="button" aria-label="View wedding flowers photograph"><img src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Wedding flowers and romantic details" loading="lazy"></button>
+      </div>
+      <p class="gallery-disclaimer" data-en="Gallery photographs are decorative examples. Replace them with the couple's own photographs whenever ready." data-kn="ಗ್ಯಾಲರಿಯಲ್ಲಿರುವ ಚಿತ್ರಗಳು ಮಾದರಿ ಚಿತ್ರಗಳು. ಸಿದ್ಧವಾದಾಗ ಜೋಡಿಯ ಸ್ವಂತ ಚಿತ್ರಗಳನ್ನು ಸೇರಿಸಬಹುದು.">Gallery photographs are decorative examples. Replace them with the couple's own photographs whenever ready.</p>
+    </section>
 
-    <script src="script.js"></script>
+    <section class="closing">
+      <div class="closing-ornament">✧</div>
+      <p class="section-kicker light" data-en="WITH LOVE AND BLESSINGS" data-kn="ಪ್ರೀತಿ ಮತ್ತು ಆಶೀರ್ವಾದಗಳೊಂದಿಗೆ">WITH LOVE AND BLESSINGS</p>
+      <h2 data-en="We look forward to celebrating with you." data-kn="ನಿಮ್ಮೊಂದಿಗೆ ಈ ಶುಭ ಕ್ಷಣವನ್ನು ಆಚರಿಸಲು ಎದುರುನೋಡುತ್ತೇವೆ.">We look forward to celebrating with you.</h2>
+      <p class="closing-names">Ananth <span>&amp;</span> Roja</p>
+      <a class="whatsapp-button" id="whatsappShare" href="#" target="_blank" rel="noopener noreferrer" data-en="SHARE THIS INVITATION" data-kn="ಈ ಆಮಂತ್ರಣವನ್ನು ಹಂಚಿಕೊಳ್ಳಿ">SHARE THIS INVITATION</a>
+    </section>
+  </main>
 
+  <footer class="site-footer">
+    <p>ANANTH &amp; ROJA · 04 DECEMBER 2026</p>
+    <p data-en="Made with love for a beautiful beginning." data-kn="ಸುಂದರ ಆರಂಭಕ್ಕಾಗಿ ಪ್ರೀತಿಯಿಂದ.">Made with love for a beautiful beginning.</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image">&times;</button>
+    <img id="lightboxImage" src="" alt="">
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
