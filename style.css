@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #faf7f0;
+    color: #42372b;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background:
+      linear-gradient(rgba(30,25,17,.28), rgba(30,25,17,.42)),
+      url('https://images.unsplash.com/photo-1519741497674-611481863552?w=1800')
+      center/cover;
+    color: white;
+}
+
+.welcome {
+    letter-spacing: 5px;
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+
+.hero h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(45px, 9vw, 85px);
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.names {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(30px, 6vw, 55px);
+}
+
+.names span {
+    color: #e3c58e;
+    padding: 0 12px;
+    font-style: italic;
+}
+
+.invitation {
+    max-width: 500px;
+    line-height: 2;
+    letter-spacing: 3px;
+    font-size: 11px;
+    margin: 30px 0;
+}
+
+.wedding-date {
+    color: #f2d7a5;
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin-bottom: 35px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    border: 1px solid #d7bb83;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 11px;
+    transition: .3s;
+}
+
+.button:hover {
+    background: #b99a65;
+    color: white;
+}
+
+section {
+    padding: 90px 20px;
+}
+
+section h2, footer h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 42px;
+    font-weight: 500;
+    color: #9b7845;
+    margin-bottom: 25px;
+}
+
+section p {
+    max-width: 650px;
+    margin: 12px auto;
+    line-height: 2;
+    font-size: 14px;
+}
+
+#countdown {
+    background: #263b31;
+    color: white;
+}
+
+#countdown h2 {
+    color: #e3c58e;
+}
+
+#timer {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+#events {
+    background: #f2ebdf;
+}
+
+.event {
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 25px;
+    border: 1px solid #d7c4a3;
+    background: #faf7f0;
+}
+
+.event h3 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #9b7845;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#venue {
+    background: #faf7f0;
+}
+
+#gallery {
+    background: #f2ebdf;
+}
+
+footer {
+    padding: 80px 20px;
+    background: #263b31;
+    color: white;
+    line-height: 2.5;
+}
+
+footer h2 {
+    color: #e3c58e;
+}
+
+@media (max-width: 600px) {
+    section {
+        padding: 65px 18px;
+    }
+
+    section h2, footer h2 {
+        font-size: 34px;
+    }
+
+    .welcome {
+        letter-spacing: 3px;
+    }
+}
